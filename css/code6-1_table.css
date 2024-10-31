@@ -1,0 +1,62 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 1
+   
+   Author:   Coding Challenge 1   
+   Date:     2021-03-01
+   Filename: code6-1_table.css
+
+*/
+
+table {
+   border-collapse: collapse;
+   border: 20px groove rgb(106, 156, 137);
+   margin-bottom: 20px;
+}
+
+header{
+   text-align: center;
+   font-size: 25px
+}
+
+th{
+   border: 1px solid gray;
+   padding: 5px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 20px;
+   width: 400px
+}
+
+td{
+   border: 1px solid gray;
+   padding: 5px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 15px;
+   vertical-align: middle;
+}
+
+caption {
+   caption-side: top;
+   text-align: left;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+table col#firstCol {
+   background-color: rgb(233, 239, 236);
+   width: 150px;
+}
+
+table col#hourCols {
+   width: 75px;
+}
+
+table thead {
+   background-color: rgb(196, 218, 210);
+}
+
